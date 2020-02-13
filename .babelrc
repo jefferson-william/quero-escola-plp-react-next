@@ -1,0 +1,19 @@
+{
+  "presets": ["next/babel", "@zeit/next-typescript/babel", "@babel/preset-typescript"],
+  "plugins": [
+    "import-graphql",
+    "graphql-tag",
+    "@babel/plugin-transform-react-jsx",
+    "@babel/plugin-proposal-optional-chaining",
+    "react-hot-loader/babel",
+    [
+      "babel-plugin-module-resolver",
+      {
+        "root": ["./"],
+        "alias": {
+          "~": "./src"
+        }
+      }
+    ]
+  ]
+}
