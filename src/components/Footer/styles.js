@@ -5,6 +5,7 @@ export const Footer = styled.footer`
   width: 100%;
   background: var(--color-blue-500);
   padding: var(--space-jumbo) var(--size-medium);
+  margin-top: var(--space-extra-giant);
   font-size: var(--size-medium);
   color: #fff;
   .footer {
