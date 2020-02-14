@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'Font Awesome Light Regular';
+  src: url(/assets/fonts/FontAwesomeLight-Regular.eot);
+  src: local('Font Awesome Solid Regular'), local('FontAwesomeLightRegular-Regular'),
+    url(/assets/fonts/FontAwesomeLight-Regular.eot) format('embedded-opentype'),
+    url(/assets/fonts/FontAwesomeLight-Regular.woff) format('woff'),
+    url(/assets/fonts/FontAwesomeLight-Regular.woff2) format('woff2'),
+    url(/assets/fonts/FontAwesomeLight-Regular.svg) format('svg'),
+    url(/assets/fonts/FontAwesomeLight-Regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Font Awesome Solid Regular';
+  src: url(/assets/fonts/FontAwesomeSolid-Bold.eot);
+  src: local('Font Awesome Solid Regular'), local('FontAwesomeSolidBold-Regular'),
+    url(/assets/fonts/FontAwesomeSolid-Bold.eot) format('embedded-opentype'),
+    url(/assets/fonts/FontAwesomeSolid-Bold.woff) format('woff'),
+    url(/assets/fonts/FontAwesomeSolid-Bold.woff2) format('woff2'),
+    url(/assets/fonts/FontAwesomeSolid-Bold.svg) format('svg'),
+    url(/assets/fonts/FontAwesomeSolid-Bold.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Font Awesome Brands Regular';
+  src: url(/assets/fonts/FontAwesomeBrands-Regular.eot);
+  src: local('Font Awesome Brands Regular'), local('FontAwesomeBrandsRegular-Regular'),
+    url(/assets/fonts/FontAwesomeBrands-Regular.eot) format('embedded-opentype'),
+    url(/assets/fonts/FontAwesomeBrands-Regular.woff) format('woff'),
+    url(/assets/fonts/FontAwesomeBrands-Regular.svg) format('svg'),
+    url(/assets/fonts/FontAwesomeBrands-Regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-weight: bold;
+  src: url(/assets/fonts/ProximaNova-Bold.eot);
+  src: local('Proxima Nova Bold'), local('ProximaNova-Bold'),
+    url(/assets/fonts/ProximaNova-Bold.eot) format('embedded-opentype'),
+    url(/assets/fonts/ProximaNova-Bold.woff) format('woff'), url(/assets/fonts/ProximaNova-Bold.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url(/assets/fonts/ProximaNova-Regular.eot);
+  src: local('Proxima Nova'), local('ProximaNova-Regular'),
+    url(/assets/fonts/ProximaNova-Regular.eot) format('embedded-opentype'),
+    url(/assets/fonts/ProximaNova-Regular.woff) format('woff'),
+    url(/assets/fonts/ProximaNova-Regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

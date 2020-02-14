@@ -3,7 +3,14 @@ module.exports = {
     browser: true,
     es6: true,
   },
-  extends: ['airbnb', 'prettier', 'prettier/react'],
+  extends: [
+    'plugin:import/errors',
+    'plugin:import/warning',
+    'plugin:import/typescript',
+    'airbnb',
+    'prettier',
+    'prettier/react',
+  ],
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
@@ -31,18 +38,21 @@ module.exports = {
         functions: 'ignore',
       },
     ],
-    'max-len': { code: 120 },
+    'max-len': ['error', { code: 120 }],
     'import/prefer-default-export': 'off',
-    'react/jsx-filename-extension': ['warn', { extensions: ['.jsx', '.js'] }],
+    'jsx-a11y/anchor-is-valid': 'off',
+    'react/jsx-filename-extension': ['warn', { extensions: ['.jsx', '.js', '.ts', '.tsx'] }],
+    'react/jsx-props-no-spreading': 'off',
     'react/prop-types': 'off',
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'off',
     'prettier/prettier': 'error',
   },
   settings: {
+    'import/ignore': ['public'],
     'import/resolver': {
-      'babel-plugin-root-import': {
-        rootPathSuffix: 'src',
+      webpack: {
+        config: 'config-overrides.js',
       },
     },
   },

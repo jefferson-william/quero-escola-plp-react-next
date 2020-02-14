@@ -2,10 +2,6 @@ import React from 'react'
 import Document, { Head, Main, NextScript } from 'next/document'
 
 export default class MyDocument extends Document {
-  constructor() {
-    super()
-  }
-
   static async getInitialProps(context) {
     const initialProps = await Document.getInitialProps(context)
 
@@ -14,15 +10,9 @@ export default class MyDocument extends Document {
 
   render() {
     return (
-      <html>
-        <Head>
-          <style>{`
-            body {
-              background: #efefef;
-            }
-          `}</style>
-        </Head>
-        <body>
+      <html lang="en">
+        <Head />
+        <body data-theme="default">
           <Main />
           <NextScript />
         </body>

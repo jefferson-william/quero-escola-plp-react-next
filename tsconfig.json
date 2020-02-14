@@ -21,7 +21,8 @@
   },
   "extends": "./tspaths.json",
   "include": [
-    "src"
+    "src",
+    "public"
   ],
   "exclude": [
     "node_modules"

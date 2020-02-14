@@ -1,0 +1,93 @@
+@import '../lib/fontawesome/fontawesome';
+@import './font-awesome-brands';
+@import './fonts.scss';
+@import '../lib/zilla/zilla.scss';
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+html {
+  display: table;
+}
+body {
+  display: table-cell;
+}
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+body {
+  font-family: 'Proxima Nova', Arial, Helvetica, 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a,
+button,
+[role='button'] {
+  cursor: pointer;
+}
+a {
+  font-weight: 500;
+  text-decoration: none;
+  &:hover {
+    color: var(--color-blue-500);
+  }
+}
+a,
+i {
+  color: var(--color-blue-500);
+}
+hr {
+  width: 100%;
+  border-top: 1px solid var(--color-alpha-gray-016);
+}
+img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+b,
+strong,
+button,
+label {
+  font-weight: bold;
+}
+.fal,
+.far,
+.fab,
+.fas {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+.fal {
+  font-family: 'Font Awesome Light Regular';
+  font-size: 24px;
+}
+.far {
+  font-family: 'Font Awesome Light Regular';
+  font-size: 24px;
+  font-weight: bold;
+}
+.fab {
+  font-family: 'Font Awesome Brands Regular';
+  font-size: 24px;
+}
+.fas {
+  font-family: 'Font Awesome Solid Regular';
+  font-size: 24px;
+}
+.container {
+  margin: 0 auto;
+  padding: 0 16px;
+}
