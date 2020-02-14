@@ -3,14 +3,7 @@ module.exports = {
     browser: true,
     es6: true,
   },
-  extends: [
-    'plugin:import/errors',
-    'plugin:import/warning',
-    'plugin:import/typescript',
-    'airbnb',
-    'prettier',
-    'prettier/react',
-  ],
+  extends: ['airbnb', 'prettier', 'prettier/react'],
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
@@ -49,11 +42,8 @@ module.exports = {
     'prettier/prettier': 'error',
   },
   settings: {
-    'import/ignore': ['public'],
     'import/resolver': {
-      webpack: {
-        config: 'config-overrides.js',
-      },
+      'babel-module': {},
     },
   },
 }
