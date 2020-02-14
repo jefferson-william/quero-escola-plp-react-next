@@ -85,7 +85,7 @@ label {
   font-family: 'Font Awesome Solid Regular';
 }
 .container {
-  max-width: 1140px;
+  max-width: var(--size-screen-extra-large);
   margin: 0 auto;
   padding: 0 16px;
 }
