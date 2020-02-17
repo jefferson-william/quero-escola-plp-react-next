@@ -1,0 +1,19 @@
+[
+  { "value": "educacao-infantil--g1-1-a-2-anos", "text": "Educação Infantil - G1 (1 a 2 anos)" },
+  { "value": "educacao-infantil--g2-2-anos", "text": "Educação Infantil - G2 (2 anos)" },
+  { "value": "educacao-infantil--g3-3-anos", "text": "Educação Infantil - G3 (3 anos)" },
+  { "value": "educacao-infantil--g4-4-anos", "text": "Educação Infantil - G4 (4 anos)" },
+  { "value": "educacao-infantil--g5-5-anos", "text": "Educação Infantil - G5 (5 anos)" },
+  { "value": "ensino-fundamental-i--1-ano", "text": "Ensino Fundamental I - 1° Ano" },
+  { "value": "ensino-fundamental-i--2-ano", "text": "Ensino Fundamental I - 2° Ano" },
+  { "value": "ensino-fundamental-i--3-ano", "text": "Ensino Fundamental I - 3° Ano" },
+  { "value": "ensino-fundamental-i--4-ano", "text": "Ensino Fundamental I - 4° Ano" },
+  { "value": "ensino-fundamental-i--5-ano", "text": "Ensino Fundamental I - 5° Ano" },
+  { "value": "ensino-fundamental-ii--6-ano", "text": "Ensino Fundamental II - 6° Ano" },
+  { "value": "ensino-fundamental-ii--7-ano", "text": "Ensino Fundamental II - 7° Ano" },
+  { "value": "ensino-fundamental-ii--8-ano", "text": "Ensino Fundamental II - 8° Ano" },
+  { "value": "ensino-fundamental-ii--9-ano", "text": "Ensino Fundamental II - 9° Ano" },
+  { "value": "ensino-medio--1-ano", "text": "Ensino Médio - 1° Ano" },
+  { "value": "ensino-medio--2-ano", "text": "Ensino Médio - 2° Ano" },
+  { "value": "ensino-medio--3-ano", "text": "Ensino Médio - 3° Ano" }
+]

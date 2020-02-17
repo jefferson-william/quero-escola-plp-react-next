@@ -14,6 +14,7 @@ export const FilterRelevance = styled.div`
       display: flex;
       align-items: center;
       margin-top: var(--space-medium);
+      margin-bottom: 0;
       > span {
         margin-right: var(--space-medium);
       }
