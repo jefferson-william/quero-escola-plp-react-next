@@ -1,4 +1,3 @@
-const path = require('path')
 const {
   override,
   useEslintRc,
@@ -65,13 +64,6 @@ module.exports = override(
         },
       ],
     })
-
-    configuration.resolve.modules = [...configuration.resolve.modules, path.resolve(__dirname, 'public')]
-
-    configuration.resolve.alias = {
-      ...configuration.resolve.alias,
-      '@': path.resolve(__dirname, 'public'),
-    }
 
     return rewireReactHotLoader(configuration, env)
   }

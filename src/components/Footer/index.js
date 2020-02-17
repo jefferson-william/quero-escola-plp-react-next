@@ -53,7 +53,7 @@ export default function() {
           <div>
             <h3 className="footer__title">Atendimento de excelência</h3>
             <div className="footer__images">
-              <img src={`${process.env.PUBLIC_URL}/assets/images/icon-epoca.png`} alt="" className="footer__epoca" />
+              <img src="/assets/images/icon-epoca.png" alt="" className="footer__epoca" />
             </div>
           </div>
           <div>

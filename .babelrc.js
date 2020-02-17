@@ -1,12 +1,7 @@
 module.exports = {
-  presets: [
-    '@babel/preset-env',
-    '@babel/preset-react',
-    '@babel/preset-typescript',
-    '@zeit/next-typescript/babel',
-    'next/babel',
-  ],
+  presets: ['@babel/preset-typescript', '@zeit/next-typescript/babel', 'next/babel'],
   plugins: [
+    '@babel/plugin-transform-runtime',
     '@babel/plugin-transform-react-jsx',
     '@babel/plugin-proposal-optional-chaining',
     'import-graphql',

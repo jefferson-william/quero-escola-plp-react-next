@@ -34,6 +34,11 @@ export const Content = styled.div`
   section {
     flex: 1;
   }
+  article {
+    & + article {
+      margin-top: var(--space-extra-large);
+    }
+  }
   @media (min-width: ${breakpoints.md}) {
     flex-direction: row;
     justify-content: space-between;

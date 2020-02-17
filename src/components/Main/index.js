@@ -6,6 +6,7 @@ import SchoolsByNeighborhoods from '~/components/SchoolsByNeighborhoods'
 import Breadcrumb from '~/components/Breadcrumb'
 import FilterRelevance from '~/components/FilterRelevance'
 import Title from '~/components/Title'
+import SchoolCardMobile from '~/components/SchoolCardMobile'
 import { Main, Content, InputRange } from './styles'
 
 export default function() {
@@ -134,9 +135,7 @@ export default function() {
           <FilterRelevance />
           {[1, 2, 3].map(num => (
             <article key={num}>
-              <div className="z-card">
-                <h2>Espaço Natural Varçario E Educação Infantil</h2>
-              </div>
+              <SchoolCardMobile />
             </article>
           ))}
         </section>
