@@ -20,7 +20,7 @@ export default function() {
           </a>
         </div>
         <div className="z-header__menu">
-          <i className="far fa-question-circle" />
+          <i className="fal fa-question-circle" />
         </div>
       </div>
     </Header>
