@@ -10,7 +10,6 @@ export const FilterRelevance = styled.div`
     padding: var(--space-medium) 0;
     border-top: 1px solid var(--color-gray-100);
     border-bottom: 1px solid var(--color-gray-100);
-    margin: var(--space-medium) 0;
     &__order {
       display: flex;
       align-items: center;
