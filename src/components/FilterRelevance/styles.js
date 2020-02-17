@@ -2,6 +2,7 @@ import styled from 'styled-components'
 import { breakpoints } from '~/styles/metrics'
 
 export const FilterRelevance = styled.div`
+  width: 100%;
   .filter-relevance {
     flex-direction: column;
     justify-content: space-between;
