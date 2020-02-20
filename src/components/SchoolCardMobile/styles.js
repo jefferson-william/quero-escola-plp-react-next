@@ -32,8 +32,6 @@ export const SchoolCardMobile = styled.div`
       font-weight: bold;
       color: var(--color-green-500);
     }
-    &__value {
-    }
     &__price {
       font-style: unset;
     }
@@ -48,6 +46,9 @@ export const SchoolCardMobile = styled.div`
           text-align: right;
         }
       }
+    }
+    &__action {
+      font-size: var(--size-font-small);
     }
     &__grade {
       a + a:before {

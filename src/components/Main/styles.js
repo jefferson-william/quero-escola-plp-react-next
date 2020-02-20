@@ -35,9 +35,7 @@ export const Content = styled.div`
     flex: 1;
   }
   article {
-    & + article {
-      margin-top: var(--space-extra-large);
-    }
+    margin-top: var(--space-extra-large);
   }
   @media (min-width: ${breakpoints.md}) {
     flex-direction: row;

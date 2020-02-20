@@ -6,6 +6,7 @@ const {
   addBabelPresets,
   removeModuleScopePlugin,
 } = require('customize-cra')
+const webpack = require('webpack')
 const rewireReactHotLoader = require('react-app-rewire-hot-loader')
 const aliasImporter = require('node-sass-alias-importer')
 
@@ -64,6 +65,12 @@ module.exports = override(
         },
       ],
     })
+
+    config.plugins.push(
+      new webpack.optimize.LimitChunkCountPlugin({
+        maxChunks: 1,
+      })
+    )
 
     return rewireReactHotLoader(configuration, env)
   }

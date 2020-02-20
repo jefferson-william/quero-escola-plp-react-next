@@ -11,7 +11,10 @@ export default class MyDocument extends Document {
   render() {
     return (
       <html lang="en">
-        <Head />
+        <Head>
+          <meta name="fragment" content="!" />
+          <meta name="description" content="PoC" />
+        </Head>
         <body data-theme="default">
           <Main />
           <NextScript />

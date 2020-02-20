@@ -5,7 +5,7 @@ export default function() {
   return (
     <Breadcrumb>
       <div className="breadcrumb container">
-        <a>Página Inicial</a>
+        <a className="z-link">Página Inicial</a>
         <span>Busca de escolas</span>
       </div>
     </Breadcrumb>

@@ -24,19 +24,6 @@ body,
   height: 100%;
   margin: 0;
 }
-body {
-  display: table-cell;
-  font-family: var(--font-family-default);
-  font-size: var(--size-font-medium);
-  color: #333;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-a,
-button,
-[role='button'] {
-  cursor: pointer;
-}
 a {
   font-weight: 500;
   text-decoration: none;
@@ -68,6 +55,7 @@ label {
 .fab,
 .fas {
   font-size: var(--size-icon-large);
+  font-weight: normal;
 }
 .fa,
 .fal {

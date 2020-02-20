@@ -11,7 +11,7 @@ const Error = ({ statusCode }: INextPageContext) => {
     <>
       <p>
         <Link href="/">
-          <a>← Início</a>
+          <a className="z-link">← Início</a>
         </Link>
       </p>
       <h1>Error Page</h1>

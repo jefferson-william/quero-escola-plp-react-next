@@ -10,15 +10,15 @@ export default function() {
         </div>
         <div>
           <h2>Instituto IDEIA</h2>
-          <a className="school-card-mobile__spotlight">
+          <a className="z-link school-card-mobile__spotlight">
             Rua Maria Palmira Ferreira Ivo, 15 - Bosque Dos Eucaliatos, São José dos Campos - São Paulo
           </a>
         </div>
       </div>
       <div className="school-card-mobile__grade">
         <i className="fal fa-user-graduate" />
-        <a className="school-card-mobile__spotlight">Ensino Fundamental II</a>
-        <a className="school-card-mobile__spotlight">Ensino Médio</a>
+        <a className="z-link school-card-mobile__spotlight">Ensino Fundamental II</a>
+        <a className="z-link school-card-mobile__spotlight">Ensino Médio</a>
       </div>
       <div className="school-card-mobile__info">
         <div>
@@ -34,7 +34,7 @@ export default function() {
       <button type="button" className="z-button z-button--success school-card-mobile__action">
         Quero esta bolsa
       </button>
-      <a className="school-card-mobile__see-more school-card-mobile__spotlight">Veja mais detalhes</a>
+      <a className="z-link school-card-mobile__see-more school-card-mobile__spotlight">Veja mais detalhes</a>
     </SchoolCardMobile>
   )
 }

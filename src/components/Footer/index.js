@@ -3,6 +3,7 @@ import { ReactComponent as LogoGlobo } from '~/assets/images/icon-globo.svg'
 import { ReactComponent as LogoFolha } from '~/assets/images/icon-folha.svg'
 import { ReactComponent as LogoVeja } from '~/assets/images/icon-veja.svg'
 import { ReactComponent as LogoMelhorEscola } from '~/assets/images/logo-melhor-escola.svg'
+import LogoEpoca from '~/assets/images/icon-epoca.png'
 import { Footer } from './styles'
 
 export default function() {
@@ -53,7 +54,7 @@ export default function() {
           <div>
             <h3 className="footer__title">Atendimento de excelência</h3>
             <div className="footer__images">
-              <img src="/assets/images/icon-epoca.png" alt="" className="footer__epoca" />
+              <img src={LogoEpoca} alt="" className="footer__epoca" />
             </div>
           </div>
           <div>
