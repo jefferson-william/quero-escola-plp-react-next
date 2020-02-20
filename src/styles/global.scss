@@ -24,16 +24,8 @@ body,
   height: 100%;
   margin: 0;
 }
-a {
-  font-weight: 500;
-  text-decoration: none;
-  &:hover {
-    color: var(--color-blue-500);
-  }
-}
-a,
 i {
-  color: var(--color-blue-500);
+  color: var(--color-primary);
 }
 hr {
   width: 100%;
@@ -43,12 +35,6 @@ img {
   width: 100%;
   height: auto;
   object-fit: contain;
-}
-b,
-strong,
-button,
-label {
-  font-weight: bold;
 }
 .fal,
 .far,

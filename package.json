@@ -113,6 +113,9 @@
     "prettier": "1.19.1",
     "react-app-rewired": "2.1.5",
     "sass-loader": "8.0.2",
+    "stylelint": "13.2.0",
+    "stylelint-config-recommended-scss": "4.2.0",
+    "stylelint-scss": "3.14.2",
     "ts-jest": "25.2.0"
   },
   "scripts": {
@@ -128,7 +131,9 @@
     "eject": "react-app-rewired eject",
     "analyze": "cross-env ANALYZE=true next build",
     "analyze:server": "cross-env BUNDLE_ANALYZE=server next build",
-    "analyze:browser": "cross-env BUNDLE_ANALYZE=browser next build"
+    "analyze:browser": "cross-env BUNDLE_ANALYZE=browser next build",
+    "stylelint": "stylelint '**/*.css'",
+    "eslint": "eslint '**/*.js'"
   },
   "eslintConfig": {
     "extends": "react-app"

@@ -61,8 +61,5 @@ export const SchoolCardMobile = styled.div`
       margin-top: var(--space-medium);
       text-align: center;
     }
-    &__grade a,
-    &__see-more {
-    }
   }
 `
