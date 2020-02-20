@@ -1,15 +1,16 @@
-const webpack = require('webpack')
-const dotenv = require('dotenv')
+const nextBundleAnalyzer = require('@next/bundle-analyzer')
 const withCSS = require('@zeit/next-css')
 const withSass = require('@zeit/next-sass')
-const withFonts = require('nextjs-fonts')
 const withImages = require('next-images')
 const { PHASE_DEVELOPMENT_SERVER } = require('next/constants')
+const withFonts = require('nextjs-fonts')
+const dotenv = require('dotenv')
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin')
+const webpack = require('webpack')
 
 dotenv.config({ path: '.env.next' })
 
-const withBundleAnalyzer = require('@next/bundle-analyzer')({
+const withBundleAnalyzer = nextBundleAnalyzer({
   enabled: process.env.ANALYZE === 'true',
 })
 
@@ -68,10 +69,10 @@ configs = withFonts({
             if (request.match(antStyles)) return callback()
 
             if (typeof origExternals[0] === 'function') {
-              origExternals[0](context, request, callback)
-            } else {
-              callback()
+              return origExternals[0](context, request, callback)
             }
+
+            return callback()
           },
           ...(typeof origExternals[0] === 'function' ? [] : origExternals),
         ]

@@ -1,6 +1,6 @@
 import React from 'react'
-import { Header } from './styles'
 import { ReactComponent as Logo } from '~/assets/images/logo.svg'
+import { Header } from './styles'
 
 export default function() {
   return (

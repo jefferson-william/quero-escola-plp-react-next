@@ -16,7 +16,7 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: 'module',
   },
-  plugins: ['react', 'prettier', 'react-hooks'],
+  plugins: ['react', 'prettier', 'react-hooks', 'import-helpers'],
   rules: {
     semi: ['error', 'never'],
     indent: ['error', 2, { SwitchCase: 1 }],
@@ -40,6 +40,22 @@ module.exports = {
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'off',
     'prettier/prettier': 'error',
+    'import-helpers/order-imports': [
+      'error',
+      {
+        newlinesBetween: 'never',
+        groups: [
+          '/^@/',
+          '/^next/',
+          '/^styled-components/',
+          '/^react/',
+          'module',
+          '/^~/',
+          ['parent', 'sibling', 'index'],
+        ],
+        alphabetize: { order: 'asc', ignoreCase: true },
+      },
+    ],
   },
   settings: {
     'import/resolver': {

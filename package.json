@@ -42,6 +42,7 @@
     "next-runtime-dotenv": "1.2.0",
     "next-server": "9.0.5",
     "nextjs-fonts": "0.22.0",
+    "node-sass-alias-importer": "1.0.0",
     "optimize-css-assets-webpack-plugin": "5.0.3",
     "prerender-node": "3.2.5",
     "query-string": "6.10.1",
@@ -104,12 +105,14 @@
     "eslint-import-resolver-babel-plugin-root-import": "1.1.1",
     "eslint-import-resolver-webpack": "0.12.1",
     "eslint-plugin-import": "2.20.1",
+    "eslint-plugin-import-helpers": "1.0.2",
     "eslint-plugin-jsx-a11y": "6.2.3",
     "eslint-plugin-prettier": "3.1.2",
     "eslint-plugin-react": "7.18.3",
     "eslint-plugin-react-hooks": "2.3.0",
+    "husky": "4.2.3",
+    "import-sort-style-module": "6.0.0",
     "node-sass": "4.13.1",
-    "node-sass-alias-importer": "1.0.0",
     "prettier": "1.19.1",
     "react-app-rewired": "2.1.5",
     "sass-loader": "8.0.2",
@@ -137,6 +140,11 @@
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn eslint ; yarn stylelint"
+    }
   },
   "browserslist": {
     "production": [

@@ -19,6 +19,11 @@
     "noEmit": true,
     "jsx": "preserve"
   },
+  "extensions": {
+    "**/*.ts": "TS",
+    "**/*.es": "JS",
+    "**/*.js": "TS"
+  },
   "extends": "./tspaths.json",
   "include": [
     "src",

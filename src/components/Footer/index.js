@@ -1,9 +1,9 @@
 import React from 'react'
-import { ReactComponent as LogoGlobo } from '~/assets/images/icon-globo.svg'
+import LogoEpoca from '~/assets/images/icon-epoca.png'
 import { ReactComponent as LogoFolha } from '~/assets/images/icon-folha.svg'
+import { ReactComponent as LogoGlobo } from '~/assets/images/icon-globo.svg'
 import { ReactComponent as LogoVeja } from '~/assets/images/icon-veja.svg'
 import { ReactComponent as LogoMelhorEscola } from '~/assets/images/logo-melhor-escola.svg'
-import LogoEpoca from '~/assets/images/icon-epoca.png'
 import { Footer } from './styles'
 
 export default function() {

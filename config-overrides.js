@@ -1,3 +1,4 @@
+const rewireReactHotLoader = require('react-app-rewire-hot-loader')
 const {
   override,
   useEslintRc,
@@ -6,12 +7,13 @@ const {
   addBabelPresets,
   removeModuleScopePlugin,
 } = require('customize-cra')
-const webpack = require('webpack')
-const rewireReactHotLoader = require('react-app-rewire-hot-loader')
 const aliasImporter = require('node-sass-alias-importer')
+const webpack = require('webpack')
+
+const eslintRc = () => () => useEslintRc()
 
 module.exports = override(
-  useEslintRc(),
+  eslintRc()(),
   enableEslintTypescript(),
   ...addBabelPresets(
     '@babel/preset-env',

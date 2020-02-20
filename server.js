@@ -1,5 +1,5 @@
-const express = require('express')
 const next = require('next')
+const express = require('express')
 const prerender = require('prerender-node')
 const routes = require('./routes')
 
@@ -9,8 +9,6 @@ const app = next({ dev })
 const handler = routes.getRequestHandler(app)
 
 prerender.set('beforeRender', (req, done) => {
-  console.log(1)
-
   done()
 })
 

@@ -1,12 +1,12 @@
 import React, { useState, useCallback } from 'react'
-import YEAR_SCHOOL_GRADE from '~/data/YearSchoolGrade.json'
-import TYPE_OF_LEARN from '~/data/TypeOfLearn.json'
-import PERIOD from '~/data/Period.json'
-import SchoolsByNeighborhoods from '~/components/SchoolsByNeighborhoods'
 import Breadcrumb from '~/components/Breadcrumb'
 import FilterRelevance from '~/components/FilterRelevance'
-import Title from '~/components/Title'
 import SchoolCardMobile from '~/components/SchoolCardMobile'
+import SchoolsByNeighborhoods from '~/components/SchoolsByNeighborhoods'
+import Title from '~/components/Title'
+import PERIOD from '~/data/Period.json'
+import TYPE_OF_LEARN from '~/data/TypeOfLearn.json'
+import YEAR_SCHOOL_GRADE from '~/data/YearSchoolGrade.json'
 import { Main, Content, InputRange } from './styles'
 
 export default function() {
