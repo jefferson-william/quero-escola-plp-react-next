@@ -141,7 +141,8 @@
     "stylelint": "stylelint '**/*.css'",
     "eslint": "eslint --ignore-path '.eslintignore' '**/*.js'",
     "tslint": "tslint --exclude 'node_modules/**' '**/*.ts'",
-    "lint": "yarn eslint ; yarn stylelint ; yarn tslint"
+    "lint": "yarn eslint ; yarn stylelint ; yarn tslint",
+    "postinstall": "npm rebuild node-sass"
   },
   "eslintConfig": {
     "extends": "react-app"
