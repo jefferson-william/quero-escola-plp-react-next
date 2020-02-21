@@ -4,7 +4,7 @@ import { breakpoints } from '~/styles/metrics'
 export const SchoolsByNeighborhoods = styled.section`
   h2 {
     margin-bottom: var(--space-medium);
-    font-family: 'Proxima Nova Bold';
+    font-family: 'proxima-nova-bold';
     font-size: var(--size-font-large);
   }
   span {
@@ -12,7 +12,7 @@ export const SchoolsByNeighborhoods = styled.section`
     width: 100%;
     padding: var(--space-small) var(--space-extra-large) var(--space-small) 0;
     margin: var(--space-small) 0;
-    font-family: 'Proxima Nova Bold';
+    font-family: 'proxima-nova-bold';
     font-size: var(--size-font-medium);
     white-space: nowrap;
     text-overflow: ellipsis;

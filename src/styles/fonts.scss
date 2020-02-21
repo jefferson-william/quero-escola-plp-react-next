@@ -37,10 +37,10 @@
   font-style: normal;
 }
 @font-face {
-  font-family: 'Proxima Nova Bold';
+  font-family: 'proxima-nova-bold';
   font-weight: bold;
   src: url(/assets/fonts/ProximaNova-Bold.eot);
-  src: local('Proxima Nova Bold'), local('ProximaNova-Bold'),
+  src: local('proxima-nova-bold'), local('ProximaNova-Bold'),
     url(/assets/fonts/ProximaNova-Bold.eot) format('embedded-opentype'),
     url(/assets/fonts/ProximaNova-Bold.woff) format('woff'), url(/assets/fonts/ProximaNova-Bold.ttf) format('truetype');
   font-display: swap;
@@ -48,9 +48,9 @@
   font-style: normal;
 }
 @font-face {
-  font-family: 'Proxima Nova';
+  font-family: 'proxima-nova';
   src: url(/assets/fonts/ProximaNova-Regular.eot);
-  src: local('Proxima Nova'), local('ProximaNova-Regular'),
+  src: local('proxima-nova'), local('ProximaNova-Regular'),
     url(/assets/fonts/ProximaNova-Regular.eot) format('embedded-opentype'),
     url(/assets/fonts/ProximaNova-Regular.ttf) format('truetype'),
     url(/assets/fonts/ProximaNova-Regular.woff) format('woff');
